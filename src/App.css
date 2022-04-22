@@ -1,38 +1,147 @@
-.App {
-  text-align: center;
+/*   
+Theme Name: Patrick Bergstroem
+Theme URI: https://www.prb01.com
+Description: Portfolio website of Patrick R Bergstroem
+Author: Patrick Bergstroem
+Author URI: https://www.prb01.com
+*/
+
+/* FONTS ===================================== */
+@font-face {
+  font-family: "RubikMonoOne";
+  src: url("./assets/webfonts/RubikMonoOne-Regular.ttf");
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+/* ROOT ===================================== */
+:root {
+  --nav-font: "RubikMonoOne";
+  --main-text-color: hsl(0, 0%, 12%);
+  --off-white: hsl(0, 0%, 95%);
+  --light-grey: hsl(0, 0%, 40%);
+  --lightest-grey: hsl(0, 0%, 80%);
+  --neon-orange: hsl(17, 100%, 56%);
+
+  /* --main-text-color:  hsl(0, 0%, 95%);
+  --off-white: hsl(0, 0%, 12%); */
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+* {
+  /* border: 1px solid red; */
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+/* ELEMENTS ===================================== */
+body {
   display: flex;
-  flex-direction: column;
   align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  height: 100vh;
+  background-color: var(--off-white);
+  font-family: sans;
+  color: var(--main-text-color);
 }
 
-.App-link {
-  color: #61dafb;
+main {
+  position: relative;
+  padding-top: 1.5rem;
+  /* border-left: 5px solid black;
+  border-bottom: 5px solid black;
+  border-radius: 3px; */
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+main:before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 5px;
+  height: 100%;
+  border-radius: 50px;
+  background-color: var(--main-text-color);
+}
+
+main:after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 5px;
+  border-radius: 50px;
+  background-color: var(--main-text-color);
+}
+
+footer {
+  display: flex;
+  justify-content: flex-end;
+  color: var(--lightest-grey);
+  grid-row-start: 2;
+  grid-column-start: 2;
+}
+
+/* CLASS ===================================== */
+.main-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 10%;
+}
+
+.main-nav {
+  display: flex;
+  align-items: center;
+  padding-top: 1.2rem;
+  font-size: 6rem;
+  font-family: var(--nav-font);
+  line-height: 1.3;
+}
+
+.main-nav li {
+  color: var(--main-text-color);
+  cursor: pointer;
+  position: relative;
+  text-align: end;
+  transition: transform 200ms ease-in-out, text-shadow 200ms ease-in-out;
+}
+
+.main-nav li:hover {
+  transform: translateX(-0.3rem);
+  text-shadow: 0.3rem 0 0 var(--neon-orange);
+}
+
+.content-container {
+  width: 100%;
+  height: 100%;
+}
+
+.content-container.profile {
+  display: flex;
+  align-items: flex-end;
+}
+
+.bulb-container {
+  position: fixed;
+  top: 0;
+  right: calc(50% - 40vw);
+  width: 50px;
+  z-index: 1;
+}
+
+#bulb-dark {
+  position: absolute;
+  opacity: 0;
+  transition: opacity 500ms ease-in-out;
+}
+
+#bulb-light {
+  position: absolute;
+  visibility: visible;
+  opacity: 1;
+  transition: opacity 500ms ease-in-out;
+}
+
+.bulb-container:hover #bulb-light {
+  opacity: 0;
+}
+
+.bulb-container:hover #bulb-dark {
+  opacity: 1;
 }
