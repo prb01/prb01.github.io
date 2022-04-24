@@ -1,55 +1,48 @@
-import logo from './logo.svg';
+import logo from "./logo.svg"
+// import './App.css';
 import bulbDark from "./assets/img/bulb-dark.png"
 import bulbLight from "./assets/img/bulb-light2.png"
-import profilePic from "./assets/img/profile.png"
-import './App.css';
+import Home from "./pages/Home"
+import About from "./pages/About"
+import Contact from "./pages/Contact"
+import Projects from "./pages/Projects"
+import Navbar from "./components/Navbar"
+import Footer from "./components/Footer"
+import Main from "./components/Main"
+import Navlink from "./components/Navlink"
+import {
+  Routes,
+  Route,
+  Link,
+  useParams,
+  useNavigate,
+  useMatch,
+} from "react-router-dom"
 
 function App() {
   return (
-    <>
-      <div class="bulb-container">
-        <img id="bulb-dark" src={bulbDark} alt="bla" />
-        <img id="bulb-light" src={bulbLight} alt="bla" />
+    <div className="xl:flex xl:items-center xl:justify-center xl:h-screen">
+      <div className="bulb-container">
+        {/* <img id="bulb-dark" src={bulbDark} alt="bla" /> */}
+        {/* <img id="bulb-light" src={bulbLight} alt="bla" /> */}
       </div>
 
-      <div class="main-container">
-        <nav class="main-nav">
-          <ul>
-            <li>home</li>
-            <li>about</li>
-            <li>projects</li>
-            <li>contact</li>
-          </ul>
-        </nav>
+      <div className="xl:grid xl:grid-cols-2 xl:gap-y-0.5 xl:justify-center">
+        <Navbar />
 
-        <main>
-          <section class="content-container profile">
-            <img src={profilePic} />
-          </section>
+        <Main>
+          <Routes>
+            <Route path="/" element={<Home />} />
+            <Route path="/" element={<About />} />
+            <Route path="/" element={<Projects />} />
+            <Route path="/" element={<Contact />} />
+          </Routes>
+        </Main>
 
-          {/* <section class="content-container contact">
-          <form action="">
-            <div class="form-group">
-              <label for="form-name">Name</label>
-              <input type="text" name="" id="" />
-            </div>
-
-            <div class="form-group">
-              <label for="form-email">Email</label>
-              <input type="email" name="" id="" />
-            </div>
-
-            <textarea name="" id="" cols="30" rows="10"></textarea>
-
-            <button type="submit">Contact</button>
-          </form>
-        </section> */}
-        </main>
-
-        <footer>© 2022 Patrick Bergstroem</footer>
+        <Footer />
       </div>
-    </>
+    </div>
   )
 }
 
-export default App;
+export default App
