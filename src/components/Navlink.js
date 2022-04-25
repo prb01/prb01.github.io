@@ -12,7 +12,8 @@ const DesktopView = ({ to, linkText }) => {
     xl:block
     xl:text-right
     xl:text-orange-600
-    xl:font-nav"
+    xl:font-nav
+    xl:leading-tight"
     >
       <Link
         to={to}

@@ -27,7 +27,7 @@ function App() {
         {/* <img id="bulb-light" src={bulbLight} alt="bla" /> */}
       </div>
 
-      <div className="xl:grid xl:grid-cols-2 xl:gap-y-0.5 xl:justify-center">
+      <div className="xl:h-3/4 xl:grid xl:grid-cols-2 xl:gap-y-0.5 xl:justify-center">
         <Navbar />
 
         <Main>
