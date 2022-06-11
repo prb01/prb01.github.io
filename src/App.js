@@ -12,17 +12,24 @@ import Navbar from "./components/Navbar"
 import Footer from "./components/Footer"
 import Main from "./components/Main"
 import Navlink from "./components/Navlink"
-import {
-  Routes,
-  Route,
-  useLocation,
-} from "react-router-dom"
+import { Routes, Route, useLocation } from "react-router-dom"
 import { useState } from "react"
 
 function App() {
   const location = useLocation()
   const [displayLocation, setDisplayLocation] = useState(location)
   const [transitionStage, setTransistionStage] = useState("fadeIn")
+
+  const loadTrigger = () => {
+    setTimeout(() => {
+      const targets = document.querySelectorAll(".load")
+      targets.forEach((target, idx) => {
+        setTimeout(() => {
+          target.classList.add("load-triggered")
+        }, 250 * idx)
+      })
+    }, 0)
+  }
 
   return (
     <div className="xl:flex xl:items-center xl:justify-center xl:h-screen">
@@ -35,7 +42,7 @@ function App() {
         src={logoFull}
         className="hidden xl:block xl:absolute xl:left-4 xl:top-4 xl:w-32  xl:opacity-50"
       />
-      <div className="xl:h-3/4 xl:grid xl:grid-cols-2 xl:gap-y-0.5 xl:justify-center">
+      <div className="xl:max-h-3/4 xl:grid xl:grid-cols-2 xl:gap-y-0.5 xl:justify-center">
         <Navbar />
 
         <Main
@@ -48,8 +55,14 @@ function App() {
           <Routes location={displayLocation}>
             <Route path="/" element={<Home />} />
             <Route path="/" element={<About />} />
-            <Route path="/projects" element={<Projects />} />
-            <Route path="/contact" element={<Contact />} />
+            <Route
+              path="/projects"
+              element={<Projects loadTrigger={loadTrigger} />}
+            />
+            <Route
+              path="/contact"
+              element={<Contact loadTrigger={loadTrigger} />}
+            />
           </Routes>
         </Main>
 

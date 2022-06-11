@@ -1,7 +1,7 @@
 import { useState } from "react"
 import contactService from "../services/contactService"
 
-const Contact = () => {
+const Contact = (props) => {
   const [name, setName] = useState("")
   const [email, setEmail] = useState("")
   const [msg, setMsg] = useState("")
@@ -22,13 +22,15 @@ const Contact = () => {
     }
   }
 
+  props.loadTrigger()
+
   return (
     <section className="flex flex-col items-center justify-center min-h-full p-4">
-      <h2 className="text-4xl text- font-bold mb-8">
+      <h2 className="text-4xl text- font-bold mb-6">
         Let's work together!
       </h2>
       <form className="w-full max-w-sm" onSubmit={handleSubmit}>
-        <div className="md:flex md:items-start mb-4 flex-col">
+        <div className="md:flex md:items-start mb-2 flex-col load zoomIn">
           <div className="">
             <label
               className="block text-main font-bold md:text-left mb-1 md:mb-0"
@@ -42,7 +44,7 @@ const Contact = () => {
               className="bg-offWhite focus:bg-transparent appearance-none border-2 border-lightGrey rounded w-full py-2 px-4 text-main leading-tight focus:outline-none focus:border-accent"
               id="name"
               type="text"
-              placeholder="Jane Doe"
+              placeholder="First Last"
               onChange={(e) => setName(e.target.value)}
               value={name}
               autoFocus
@@ -51,7 +53,7 @@ const Contact = () => {
           </div>
         </div>
 
-        <div className="md:flex md:items-start mb-4 flex-col">
+        <div className="md:flex md:items-start mb-2 flex-col  load zoomIn">
           <div className="">
             <label
               className="block text-main font-bold md:text-left mb-1 md:mb-0"
@@ -73,11 +75,11 @@ const Contact = () => {
           </div>
         </div>
 
-        <div className="md:flex md:items-start mb-4 flex-col">
+        <div className="md:flex md:items-start mb-2 flex-col load zoomIn">
           <div className="">
             <label
               className="block text-main font-bold md:text-left mb-1 md:mb-0"
-              htmlFor="email"
+              htmlFor="message"
             >
               Message
             </label>
@@ -92,7 +94,7 @@ const Contact = () => {
           </div>
         </div>
 
-        <div className="md:flex md:items-start">
+        <div className="md:flex md:items-start load zoomIn">
           <div className="">
             <button
               className="bg-accent hover:scale-105 focus:outline focus:outline-2 focus:outline-main text-white font-bold py-2 px-4 rounded active:bg-main active:scale-90 transition-all"

@@ -22,6 +22,13 @@ module.exports = {
       maxWidth: {
         "9/10": "90%",
       },
+      spacing: {
+        screenX: "calc(-50vw)",
+        screenY: "calc(-33%)",
+      },
+      lineHeight: {
+        zero: "0"
+      }
     },
   },
   plugins: [],

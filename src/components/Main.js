@@ -2,8 +2,9 @@ import { useEffect } from "react"
 
 const Main = (props) => {
   useEffect(() => {
-    if (props.location !== props.displayLocation)
+    if (props.location !== props.displayLocation) {
       props.setTransistionStage("fadeOut")
+    }
   }, [props.location])
 
   return (
@@ -13,7 +14,11 @@ const Main = (props) => {
       relative
       pt-1
       w-screen
-      h-90vh 
+      h-90vh
+      flex
+      justify-center
+      items-center
+      origin-bottom-left 
 
       xl:w-full
       xl:h-full
