@@ -8,9 +8,10 @@ const DesktopView = (props) => (
   <nav
     className="
     hidden
-    xl: h-full
+    xl:h-full
     xl:flex
-    xl:items-center"
+    xl:items-center
+    pr-5"
   >
     <ul>
       <Navlink to="/" linkText="home" linkIcon={homeIcon} />

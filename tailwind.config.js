@@ -1,12 +1,26 @@
 module.exports = {
   content: ["./src/**/*.{js,jsx,ts,tsx}"],
   theme: {
-    fontFamily: {
-      nav: ["RubikMonoOne"],
-    },
     extend: {
       boxShadow: {
-        "top": "0 -2px 5px 2px rgba(0, 0, 0, 0.1)",
+        top: "0 -2px 5px 2px rgba(0, 0, 0, 0.1)",
+      },
+      colors: {
+        main: "hsl(0, 0%, 12%)",
+        accent: "hsl(17, 100%, 56%)",
+
+        offWhite: "hsl(0, 0%, 95%)",
+        lightGrey: "hsl(0, 0%, 40%)",
+        lightestGrey: "hsl(0, 0%, 80%)",
+      },
+      fontFamily: {
+        nav: ["RubikMonoOne"],
+      },
+      height: {
+        "90vh": "90vh",
+      },
+      maxWidth: {
+        "9/10": "90%",
       },
     },
   },

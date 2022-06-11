@@ -11,7 +11,7 @@ const DesktopView = ({ to, linkText }) => {
     xl:text-8xl
     xl:block
     xl:text-right
-    xl:text-orange-600
+    xl:text-accent
     xl:font-nav
     xl:leading-tight"
     >
@@ -23,7 +23,7 @@ const DesktopView = ({ to, linkText }) => {
         xl:before:absolute
         xl:before:transition-smooth
         xl:before:hover:-translate-x-1
-        xl:before:text-black"
+        xl:before:text-main"
       >
         {linkText}
       </Link>

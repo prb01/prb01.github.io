@@ -7,8 +7,96 @@
   src: url("./assets/webfonts/RubikMonoOne-Regular.ttf");
 }
 
+/* @font-face {
+  font-family: "Comfortaa";
+  src: url("./assets/webfonts/Comfortaa-Regular.ttf");
+} */
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300;400;600;700&display=swap');
+
 @layer utilities {
   .transition-smooth {
     transition: 200ms ease-in-out;
   }
+}
+
+
+html {
+  font-size: 18px;
+  font-family: "Comfortaa";
+}
+
+.fadeIn {
+  transform-origin: 0% 100%;
+  animation: 0.35s fadeIn forwards;
+}
+
+.fadeOut {
+  transform-origin: 0% 100%;
+  animation: 0.35s fadeOut forwards;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: scale(0);
+  }
+
+  to {
+    opacity: 1;
+    transform: scale(1);
+  }
+}
+
+@keyframes fadeOut {
+  from {
+    opacity: 1;
+    transform: scale(1);
+  }
+
+  to {
+    opacity: 0;
+    transform: scale(0);
+  }
+}
+
+
+.slideshow {
+  margin: 0 auto;
+  overflow: hidden;
+  max-width: 500px;
+}
+
+.slideshowSlider {
+  white-space: nowrap;
+  transition: ease 1000ms;
+}
+
+.slide {
+  display: inline-block;
+
+  height: 400px;
+  width: 100%;
+  border-radius: 40px;
+}
+
+/* Buttons */
+
+.slideshowDots {
+  text-align: center;
+}
+
+.slideshowDot {
+  display: inline-block;
+  height: 20px;
+  width: 20px;
+  border-radius: 50%;
+
+  cursor: pointer;
+  margin: 15px 7px 0px;
+
+  background-color: #c4c4c4;
+}
+
+.slideshowDot.active {
+  background-color: #6a0dad;
 }

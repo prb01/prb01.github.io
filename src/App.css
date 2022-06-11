@@ -7,30 +7,41 @@ Author URI: https://www.prb01.com
 */
 
 /* FONTS ===================================== */
+/* @font-face {
+  font-family: "Audiowide";
+  src: url("./assets/webfonts/Audiowide-Regular.ttf");
+}
+
 @font-face {
   font-family: "RubikMonoOne";
   src: url("./assets/webfonts/RubikMonoOne-Regular.ttf");
 }
 
+@font-face {
+  font-family: "Comfortaa";
+  src: url("./assets/webfonts/Comfortaa-Regular.ttf");
+} */
+
+
 /* ROOT ===================================== */
-:root {
-  --nav-font: "RubikMonoOne";
+  :root {
+  /* --nav-font: "Comfortaa";
   --main-text-color: hsl(0, 0%, 12%);
   --off-white: hsl(0, 0%, 95%);
   --light-grey: hsl(0, 0%, 40%);
   --lightest-grey: hsl(0, 0%, 80%);
-  --neon-orange: hsl(17, 100%, 56%);
+  --neon-orange: hsl(17, 100%, 56%);  */
 
   /* --main-text-color:  hsl(0, 0%, 95%);
   --off-white: hsl(0, 0%, 12%); */
-}
+}  
 
 * {
   /* border: 1px solid red; */
 }
 
 /* ELEMENTS ===================================== */
-body {
+/* body {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -38,17 +49,18 @@ body {
   background-color: var(--off-white);
   font-family: sans;
   color: var(--main-text-color);
-}
+} */
 
 main {
-  position: relative;
-  padding-top: 1.5rem;
+  /* position: relative;
+  padding-top: 1.5rem; */
+
   /* border-left: 5px solid black;
   border-bottom: 5px solid black;
   border-radius: 3px; */
 }
 
-main:before {
+/* main:before {
   content: "";
   position: absolute;
   top: 0;
@@ -76,10 +88,10 @@ footer {
   color: var(--lightest-grey);
   grid-row-start: 2;
   grid-column-start: 2;
-}
+} */
 
 /* CLASS ===================================== */
-.main-container {
+/* .main-container {
   display: grid;
   grid-template-columns: 1fr 1fr;
   grid-template-rows: 1fr 10%;
@@ -144,4 +156,4 @@ footer {
 
 .bulb-container:hover #bulb-dark {
   opacity: 1;
-}
+} */
