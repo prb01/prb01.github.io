@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.c0190a3f.css",
-    "main.js": "/static/js/main.40e7f775.js",
+    "main.js": "/static/js/main.abe77a46.js",
     "static/media/profile.png": "/static/media/profile.80664705acde232acbf1.png",
     "static/media/RubikMonoOne-Regular.ttf": "/static/media/RubikMonoOne-Regular.bca8f5015b00e4514972.ttf",
     "static/media/project_shredsquad_500x500.webp": "/static/media/project_shredsquad_500x500.802b764d00f9a68ae6ce.webp",
@@ -16,10 +16,10 @@
     "index.html": "/index.html",
     "static/media/video-icon.svg": "/static/media/video-icon.a6bbb232fb826264d59511c00b0c1a16.svg",
     "main.c0190a3f.css.map": "/static/css/main.c0190a3f.css.map",
-    "main.40e7f775.js.map": "/static/js/main.40e7f775.js.map"
+    "main.abe77a46.js.map": "/static/js/main.abe77a46.js.map"
   },
   "entrypoints": [
     "static/css/main.c0190a3f.css",
-    "static/js/main.40e7f775.js"
+    "static/js/main.abe77a46.js"
   ]
 }
