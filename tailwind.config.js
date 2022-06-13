@@ -18,6 +18,7 @@ module.exports = {
       },
       height: {
         "90vh": "90vh",
+        screenWithNav: "calc(100vh - 2.5rem)",
       },
       maxWidth: {
         "9/10": "90%",
@@ -27,8 +28,8 @@ module.exports = {
         screenY: "calc(-33%)",
       },
       lineHeight: {
-        zero: "0"
-      }
+        zero: "0",
+      },
     },
   },
   plugins: [],

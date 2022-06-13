@@ -1,24 +1,31 @@
 import { useEffect } from "react"
 
-const Main = (props) => {
+const Main = ({
+  location,
+  displayLocation,
+  setDisplayLocation,
+  transitionStage,
+  setTransistionStage,
+  children
+}) => {
   useEffect(() => {
-    if (props.location !== props.displayLocation) {
-      props.setTransistionStage("fadeOut")
+    if (location !== displayLocation) {
+      setTransistionStage("fadeOut")
     }
-  }, [props.location])
+  },)
 
   return (
     <main
       className={`
-      ${props.transitionStage}
+      ${transitionStage}
       relative
       pt-1
-      w-screen
-      h-90vh
+      h-screenWithNav
       flex
       justify-center
       items-center
-      origin-bottom-left 
+      origin-bottom-left
+      overflow-y-scroll h-
 
       xl:w-full
       xl:h-full
@@ -41,13 +48,13 @@ const Main = (props) => {
       xl:after:rounded-full
     xl:after:bg-main`}
       onAnimationEnd={() => {
-        if (props.transitionStage === "fadeOut") {
-          props.setTransistionStage("fadeIn")
-          props.setDisplayLocation(props.location)
+        if (transitionStage === "fadeOut") {
+          setTransistionStage("fadeIn")
+          setDisplayLocation(location)
         }
       }}
     >
-      {props.children}
+      {children}
     </main>
   )
 }

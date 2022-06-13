@@ -1,4 +1,4 @@
-import Navlink from "./Navlink"
+import Mylink from "./Mylink"
 import homeIcon from "../assets/icons/home.svg"
 import aboutIcon from "../assets/icons/about.svg"
 import projectsIcon from "../assets/icons/projects.svg"
@@ -14,14 +14,10 @@ const DesktopView = (props) => (
     pr-5"
   >
     <ul>
-      <Navlink to="/" linkText="home" linkIcon={homeIcon} />
-      <Navlink to="/about" linkText="about" linkIcon={aboutIcon} />
-      <Navlink
-        to="/projects"
-        linkText="projects"
-        linkIcon={projectsIcon}
-      />
-      <Navlink to="/contact" linkText="contact" linkIcon={contactIcon} />
+      <Mylink to="/" linkText="home" linkIcon={homeIcon} />
+      <Mylink to="/about" linkText="about" linkIcon={aboutIcon} />
+      <Mylink to="/projects" linkText="projects" linkIcon={projectsIcon} />
+      <Mylink to="/contact" linkText="contact" linkIcon={contactIcon} />
     </ul>
   </nav>
 )
@@ -35,21 +31,23 @@ const MobileView = (props) => (
     left-0
     right-0
     shadow-top
-    p-2
     z-10
     bg-slate-50
     flex
-    justify-center"
+    justify-center
+    place-items-center
+    h-10
+    text-xs"
   >
-    <ul className="flex flex-row justify-evenly w-full">
-      <Navlink to="/" linkText="home" linkIcon={homeIcon} />
-      <Navlink to="/about" linkText="about" linkIcon={aboutIcon} />
-      <Navlink
+    <ul className="grid grid-cols-4 w-full h-full">
+      <Mylink to="/" linkText="home" linkIcon={homeIcon} />
+      <Mylink to="/about" linkText="about" linkIcon={aboutIcon} />
+      <Mylink
         to="/projects"
         linkText="projects"
         linkIcon={projectsIcon}
       />
-      <Navlink to="/contact" linkText="contact" linkIcon={contactIcon} />
+      <Mylink to="/contact" linkText="contact" linkIcon={contactIcon} />
     </ul>
   </nav>
 )
