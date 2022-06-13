@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.f83ecc95.css",
-    "main.js": "/static/js/main.c9c4c7b9.js",
+    "main.css": "/static/css/main.957b9222.css",
+    "main.js": "/static/js/main.c6c20066.js",
     "static/js/787.01c08a51.chunk.js": "/static/js/787.01c08a51.chunk.js",
     "static/media/bulb-light2.png": "/static/media/bulb-light2.c1a116bb5c7d9a654e20.png",
     "static/media/profile.png": "/static/media/profile.80664705acde232acbf1.png",
@@ -19,12 +19,12 @@
     "static/media/github-icon.svg": "/static/media/github-icon.fc0ffe042a9582d2a394e1c609baa9f2.svg",
     "index.html": "/index.html",
     "static/media/video-icon.svg": "/static/media/video-icon.a6bbb232fb826264d59511c00b0c1a16.svg",
-    "main.f83ecc95.css.map": "/static/css/main.f83ecc95.css.map",
-    "main.c9c4c7b9.js.map": "/static/js/main.c9c4c7b9.js.map",
+    "main.957b9222.css.map": "/static/css/main.957b9222.css.map",
+    "main.c6c20066.js.map": "/static/js/main.c6c20066.js.map",
     "787.01c08a51.chunk.js.map": "/static/js/787.01c08a51.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.f83ecc95.css",
-    "static/js/main.c9c4c7b9.js"
+    "static/css/main.957b9222.css",
+    "static/js/main.c6c20066.js"
   ]
 }
