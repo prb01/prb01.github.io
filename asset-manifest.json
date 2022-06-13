@@ -1,13 +1,9 @@
 {
   "files": {
-    "main.css": "/static/css/main.957b9222.css",
-    "main.js": "/static/js/main.8dd7933e.js",
-    "static/js/787.01c08a51.chunk.js": "/static/js/787.01c08a51.chunk.js",
-    "static/media/bulb-light2.png": "/static/media/bulb-light2.c1a116bb5c7d9a654e20.png",
+    "main.css": "/static/css/main.7dddac59.css",
+    "main.js": "/static/js/main.53d99ca3.js",
     "static/media/profile.png": "/static/media/profile.80664705acde232acbf1.png",
     "static/media/RubikMonoOne-Regular.ttf": "/static/media/RubikMonoOne-Regular.bca8f5015b00e4514972.ttf",
-    "static/media/bulb-dark.png": "/static/media/bulb-dark.f5e729fa24156ff9b35e.png",
-    "static/media/logo_retro_full.png": "/static/media/logo_retro_full.09a04e601630cf6954ca.png",
     "static/media/project_shredsquad_500x500.webp": "/static/media/project_shredsquad_500x500.802b764d00f9a68ae6ce.webp",
     "static/media/project_abrapalabra_500x500.webp": "/static/media/project_abrapalabra_500x500.b9d3a01c9e888bc5edae.webp",
     "static/media/logo_retro.png": "/static/media/logo_retro.3eead3a30a17946865a9.png",
@@ -19,12 +15,11 @@
     "static/media/github-icon.svg": "/static/media/github-icon.fc0ffe042a9582d2a394e1c609baa9f2.svg",
     "index.html": "/index.html",
     "static/media/video-icon.svg": "/static/media/video-icon.a6bbb232fb826264d59511c00b0c1a16.svg",
-    "main.957b9222.css.map": "/static/css/main.957b9222.css.map",
-    "main.8dd7933e.js.map": "/static/js/main.8dd7933e.js.map",
-    "787.01c08a51.chunk.js.map": "/static/js/787.01c08a51.chunk.js.map"
+    "main.7dddac59.css.map": "/static/css/main.7dddac59.css.map",
+    "main.53d99ca3.js.map": "/static/js/main.53d99ca3.js.map"
   },
   "entrypoints": [
-    "static/css/main.957b9222.css",
-    "static/js/main.8dd7933e.js"
+    "static/css/main.7dddac59.css",
+    "static/js/main.53d99ca3.js"
   ]
 }
