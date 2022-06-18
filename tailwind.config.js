@@ -16,6 +16,9 @@ module.exports = {
       fontFamily: {
         nav: ["RubikMonoOne"],
       },
+      fontSize: {
+        "7vw": "7vw"
+      },
       height: {
         "90vh": "90vh",
         screenWithNav: "calc(100vh - 2.5rem)",

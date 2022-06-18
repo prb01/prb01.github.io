@@ -42,7 +42,7 @@ const Project = ({ project }) => {
         className={`
           ${hidden ? "hidden" : ""}
           ${overlay ? "megaZoomIn" : "megaZoomOut"}
-          fixed top-0 left-0 xl:bottom-0 right-0 z-30 transition-all origin-center flex justify-center items-center px-3`}
+          fixed top-0 left-0 sm:bottom-0 right-0 z-30 transition-all origin-center flex justify-center items-center px-3`}
       >
         <div
           className="absolute top-0 bottom-0 right-0 left-0 bg-main/50"

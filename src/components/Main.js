@@ -25,7 +25,8 @@ const Main = ({
       justify-center
       items-center
       origin-bottom-left
-      overflow-y-scroll h-
+      overflow-y-scroll
+      overflow-x-hidden
 
       xl:w-full
       xl:h-full

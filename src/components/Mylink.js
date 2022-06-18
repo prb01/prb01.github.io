@@ -5,14 +5,16 @@ const DesktopView = ({ to, linkText }) => {
     <li
       className="
     hidden
-    relative 
+    relative
 
-    xl:text-8xl
+    xl:text-7vw
+    xl:leading-tight
     xl:block
     xl:text-right
     xl:text-accent
     xl:font-nav
-    xl:leading-tight"
+    2xl:text-8xl
+    2xl:leading-tight"
     >
       <NavLink
         to={to}

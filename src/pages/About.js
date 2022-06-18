@@ -1,7 +1,7 @@
 import { NavLink } from "react-router-dom"
 
 const About = () => (
-  <section className="text-xl place-self-start xl:place-self-auto max-w-screen-sm px-3 mt-10 pb-10 xl:mt-0 xl:pb-0">
+  <section className="text-xl place-self-start sm:place-self-center xl:place-self-auto max-w-screen-sm px-3 mt-10 pb-10 xl:mt-0 xl:pb-0">
     <h1 className="text-3xl font-bold mb-5">
       Hej, I'm <span className="text-accent">Patrick</span>.
     </h1>
