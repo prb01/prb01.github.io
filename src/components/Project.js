@@ -32,7 +32,7 @@ const Project = ({ project }) => {
         style={{ backgroundImage: `url(${project.thumbnail})` }}
         onClick={handleClick}
       >
-        <div className="absolute bg-accent/20 z-10 w-full h-full hover:bg-transparent"></div>
+        <div className="absolute bg-accentAlt/20 z-10 w-full h-full hover:bg-transparent"></div>
         <div className="text-offWhite font-bold text-md xl:text-lg bg-main/90 px-1 z-20">
           {project.name}
         </div>

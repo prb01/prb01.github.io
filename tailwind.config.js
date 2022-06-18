@@ -9,6 +9,7 @@ module.exports = {
         main: "hsl(0, 0%, 12%)",
         // accent: "hsl(17, 100%, 56%)",
         accent: "#f0484b",
+        accentAlt: "#0d4361",
 
         offWhite: "hsl(0, 0%, 95%)",
         lightGrey: "hsl(0, 0%, 40%)",
@@ -18,7 +19,7 @@ module.exports = {
         nav: ["RubikMonoOne"],
       },
       fontSize: {
-        "7vw": "7vw"
+        "7vw": "7vw",
       },
       height: {
         "90vh": "90vh",
