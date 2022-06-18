@@ -80,6 +80,7 @@ const Project = ({ project }) => {
                   href={project.siteLink}
                   target="_blank"
                   rel="noreferrer"
+                  className={project.siteLink ? "" : "hidden"}
                 >
                   <img
                     className="w-8 hover:scale-110 iconAccent transition-all"
@@ -91,6 +92,7 @@ const Project = ({ project }) => {
                   href={project.githubLink}
                   target="_blank"
                   rel="noreferrer"
+                  className={project.githubLink ? "" : "hidden"}
                 >
                   <img
                     className="w-8 hover:scale-110 iconAccent transition-all"
@@ -102,6 +104,7 @@ const Project = ({ project }) => {
                   href={project.demoLink}
                   target="_blank"
                   rel="noreferrer"
+                  className={project.demoLink ? "" : "hidden"}
                 >
                   <img
                     className="w-8 hover:scale-110 iconAccent transition-all"

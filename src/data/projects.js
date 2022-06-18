@@ -1,5 +1,7 @@
 import projectAbraThumbnail from "../assets/img/project_abrapalabra_500x500.webp"
 import projectShredThumbnail from "../assets/img/project_shredsquad_500x500.webp"
+import projectTonosThumbnail from "../assets/img/project_tonoscaferewards_500x500.webp"
+import logoRound from "../assets/img/logo_retro.png"
 
 export const projects = [
   {
@@ -25,31 +27,24 @@ export const projects = [
     demoLink: "https://vimeo.com/707819729",
   },
   {
-    name: "Project3",
-    devTools: ["html", "css", "js"],
-    description: "bla bla bla",
-    thumbnail: "",
-    img: "",
+    name: "Toños Cafe",
+    devTools: ["shopify", "liquid", "css"],
+    description:
+      "Rewards program implementation on Shopify. Yotpo plugin installation on Shopify with customised css & liquid templates.",
+    thumbnail: projectTonosThumbnail,
+    img: projectTonosThumbnail,
+    siteLink: "https://www.tonoscafebakery.com/pages/tonos-rewards",
+    githubLink: null,
+    demoLink: "https://vimeo.com/721777405",
   },
   {
-    name: "Project4",
-    devTools: ["html", "css", "js"],
-    description: "bla bla bla",
+    name: "Coming Soon",
+    devTools: [],
+    description: "",
     thumbnail: "",
     img: "",
-  },
-  {
-    name: "Project5",
-    devTools: ["html", "css", "js"],
-    description: "bla bla bla",
-    thumbnail: "",
-    img: "",
-  },
-  {
-    name: "Project6",
-    devTools: ["html", "css", "js"],
-    description: "bla bla bla",
-    thumbnail: "",
-    img: "",
+    siteLink: null,
+    githubLink: null,
+    demoLink: null,
   },
 ]
