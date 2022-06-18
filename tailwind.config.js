@@ -7,7 +7,8 @@ module.exports = {
       },
       colors: {
         main: "hsl(0, 0%, 12%)",
-        accent: "hsl(17, 100%, 56%)",
+        // accent: "hsl(17, 100%, 56%)",
+        accent: "#f0484b",
 
         offWhite: "hsl(0, 0%, 95%)",
         lightGrey: "hsl(0, 0%, 40%)",
