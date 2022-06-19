@@ -1,6 +1,6 @@
 {
-  "short_name": "PRB01 | Web Developer",
-  "name": "Portfolio of PRB01 web development",
+  "short_name": "prb01",
+  "name": "Portfolio of prb01 web development",
   "icons": [
     {
       "src": "/favicon-16x16.png",
@@ -32,5 +32,31 @@
   "start_url": "./",
   "display": "standalone",
   "theme_color": "#000000",
-  "background_color": "#ffffff"
+  "background_color": "#ffffff",
+  "shortcuts": [
+    {
+      "name": "Home",
+      "short_name": "Home",
+      "description": "prb01 home",
+      "url": "/"
+    },
+    {
+      "name": "About",
+      "short_name": "About",
+      "description": "About prb01 | Patrick Reinhold Bergstroem",
+      "url": "/#/about"
+    },
+    {
+      "name": "Projects",
+      "short_name": "Projects",
+      "description": "Portfolio projects",
+      "url": "/#/projects"
+    },
+    {
+      "name": "Contact",
+      "short_name": "Contact",
+      "description": "Contact Patrick",
+      "url": "/#/contact"
+    }
+  ]
 }
