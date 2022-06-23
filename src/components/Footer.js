@@ -19,7 +19,7 @@ const Footer = (props) => {
           <i className="fa-brands fa-github"></i>
         </a>
         <a
-          href="mailto:info@prb01.com"
+          href="mailto:contact@prb01.com"
           className="hover:text-accent hover:scale-105 transition-all"
           target="_blank"
           rel="noreferrer"
