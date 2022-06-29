@@ -6,7 +6,7 @@ const About = () => (
       Hej, I'm <span className="text-accent">Patrick</span>.
     </h1>
     <p className="whitespace-normal leading-normal mb-3">
-      Aftr 10yrs of working in finance as a project manager, in 2021 I
+      After 10yrs of working in finance as a project manager, in 2021 I
       decided to combine my loves for solving complex-problems and building
       products into a new career. Since beginning my journey as a fullstack
       web developer, I've done remote work for agencies, contributed to
