@@ -1,9 +1,33 @@
-import projectAbraThumbnail from "../assets/img/project_abrapalabra_500x500.webp"
-import projectShredThumbnail from "../assets/img/project_shredsquad_500x500.webp"
-import projectTonosThumbnail from "../assets/img/project_tonoscaferewards_500x500.webp"
-import logoRound from "../assets/img/logo_retro.png"
+import projectAbraThumbnail from "../assets/img/project_abrapalabra_500x500.webp";
+import projectShredThumbnail from "../assets/img/project_shredsquad_500x500.webp";
+import projectTonosThumbnail from "../assets/img/project_tonoscaferewards_500x500.webp";
+import projectSpotlistThumbnail from "../assets/img/project_spotlist_500x500.webp";
+import projectHopperThumbnail from "../assets/img/project_hopper_500x500.webp";
+import logoRound from "../assets/img/logo_retro.png";
 
 export const projects = [
+  {
+    name: "SpotList",
+    devTools: ["react-redux", "serverless (firebase)", "spotify API"],
+    description:
+      "Web app that allows combining & synching of public Spotify playlist with personal playlist. Synch is performed daily via scheduled Cloud functions.",
+    thumbnail: projectSpotlistThumbnail,
+    img: projectSpotlistThumbnail,
+    siteLink: "https://spotlist.prb01.com/",
+    githubLink: "https://github.com/prb01/spotlist",
+    demoLink: "https://vimeo.com/738321807",
+  },
+  {
+    name: "Hopper",
+    devTools: ["react-redux", "serverless (firebase)", "stripe API"],
+    description:
+      "Enterprise SaaS for reservation management of a trampoline park. This team project features POS, add-on products, scheduling, and waiver management.",
+    thumbnail: projectHopperThumbnail,
+    img: projectHopperThumbnail,
+    siteLink: null,
+    githubLink: null,
+    demoLink: "https://vimeo.com/733300897",
+  },
   {
     name: "AbraPalabra",
     devTools: ["html", "css", "js"],
@@ -37,14 +61,4 @@ export const projects = [
     githubLink: null,
     demoLink: "https://vimeo.com/721777405",
   },
-  {
-    name: "Coming Soon",
-    devTools: [],
-    description: "",
-    thumbnail: "",
-    img: "",
-    siteLink: null,
-    githubLink: null,
-    demoLink: null,
-  },
-]
+];
