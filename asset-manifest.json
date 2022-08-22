@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.ce6bf5cf.css",
-    "main.js": "/static/js/main.1b557e45.js",
+    "main.js": "/static/js/main.5b6b398c.js",
     "static/media/RubikMonoOne-Regular.ttf": "/static/media/RubikMonoOne-Regular.bca8f5015b00e4514972.ttf",
     "static/media/profile.webp": "/static/media/profile.443a54f54b6525a91e43.webp",
     "static/media/project_hopper_500x500.webp": "/static/media/project_hopper_500x500.afe504795bdf3e6a53ab.webp",
@@ -20,10 +20,10 @@
     "static/media/github-icon.svg": "/static/media/github-icon.fc0ffe042a9582d2a394e1c609baa9f2.svg",
     "static/media/video-icon.svg": "/static/media/video-icon.a6bbb232fb826264d59511c00b0c1a16.svg",
     "main.ce6bf5cf.css.map": "/static/css/main.ce6bf5cf.css.map",
-    "main.1b557e45.js.map": "/static/js/main.1b557e45.js.map"
+    "main.5b6b398c.js.map": "/static/js/main.5b6b398c.js.map"
   },
   "entrypoints": [
     "static/css/main.ce6bf5cf.css",
-    "static/js/main.1b557e45.js"
+    "static/js/main.5b6b398c.js"
   ]
 }
