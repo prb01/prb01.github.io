@@ -24,9 +24,9 @@ export const projects = [
       "Enterprise SaaS for reservation management of a trampoline park. This team project features POS, add-on products, scheduling, and waiver management.",
     thumbnail: projectHopperThumbnail,
     img: projectHopperThumbnail,
-    siteLink: null,
+    siteLink: "https://hopper.prb01.com/",
     githubLink: null,
-    demoLink: "https://vimeo.com/733300897",
+    demoLink: "https://vimeo.com/741817262",
   },
   {
     name: "AbraPalabra",
