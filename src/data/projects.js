@@ -25,7 +25,7 @@ export const projects = [
     thumbnail: projectHopperThumbnail,
     img: projectHopperThumbnail,
     siteLink: "https://hopper.prb01.com/",
-    githubLink: null,
+    githubLink: "https://github.com/prb01/hopper",
     demoLink: "https://vimeo.com/741817262",
   },
   {
