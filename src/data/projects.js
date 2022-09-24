@@ -1,7 +1,7 @@
 import projectAbraThumbnail from "../assets/img/project_abrapalabra_500x500.webp";
 import projectShredThumbnail from "../assets/img/project_shredsquad_500x500.webp";
 import projectTonosThumbnail from "../assets/img/project_tonoscaferewards_500x500.webp";
-import projectSpotlistThumbnail from "../assets/img/project_spotlist_500x500.webp";
+import projectSynchtifyThumbnail from "../assets/img/project_synchtify_500x500.webp";
 import projectHopperThumbnail from "../assets/img/project_hopper_500x500.webp";
 import logoRound from "../assets/img/logo_retro.png";
 
@@ -11,10 +11,10 @@ export const projects = [
     devTools: ["react-redux", "serverless (firebase)", "spotify API"],
     description:
       "Web app that allows combining & synching of public Spotify playlist with personal playlist. Synch is performed daily via scheduled Cloud functions.",
-    thumbnail: projectSpotlistThumbnail,
-    img: projectSpotlistThumbnail,
-    siteLink: "https://spotlist.prb01.com/",
-    githubLink: "https://github.com/prb01/spotlist",
+    thumbnail: projectSynchtifyThumbnail,
+    img: projectSynchtifyThumbnail,
+    siteLink: "https://synchtify.com/",
+    githubLink: "https://github.com/prb01/synchtify",
     demoLink: "https://vimeo.com/738321807",
   },
   {
