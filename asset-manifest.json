@@ -1,16 +1,16 @@
 {
   "files": {
     "main.css": "/static/css/main.ce6bf5cf.css",
-    "main.js": "/static/js/main.c01bef6d.js",
+    "main.js": "/static/js/main.a362910c.js",
     "static/media/RubikMonoOne-Regular.ttf": "/static/media/RubikMonoOne-Regular.bca8f5015b00e4514972.ttf",
     "static/media/profile.webp": "/static/media/profile.443a54f54b6525a91e43.webp",
     "static/media/project_hopper_500x500.webp": "/static/media/project_hopper_500x500.afe504795bdf3e6a53ab.webp",
     "static/media/project_tonoscaferewards_500x500.webp": "/static/media/project_tonoscaferewards_500x500.3b8f20152ce3c19e137c.webp",
     "static/media/logo_retro_full.png": "/static/media/logo_retro_full.09a04e601630cf6954ca.png",
-    "static/media/project_spotlist_500x500.webp": "/static/media/project_spotlist_500x500.2e9bdc7c404d9775cf0a.webp",
     "static/media/project_shredsquad_500x500.webp": "/static/media/project_shredsquad_500x500.802b764d00f9a68ae6ce.webp",
     "static/media/project_abrapalabra_500x500.webp": "/static/media/project_abrapalabra_500x500.b9d3a01c9e888bc5edae.webp",
     "static/media/logo_retro.png": "/static/media/logo_retro.3eead3a30a17946865a9.png",
+    "static/media/project_synchtify_500x500.webp": "/static/media/project_synchtify_500x500.9a37aef1a810406aa2ab.webp",
     "static/media/projects.svg": "/static/media/projects.64bbfd84311c7e731673fd4b7fabf8bb.svg",
     "static/media/internet-icon.svg": "/static/media/internet-icon.6185f298e284a2e577390b1196778a76.svg",
     "static/media/contact.svg": "/static/media/contact.a5c82f4695c7956995576bf1160106ce.svg",
@@ -20,10 +20,10 @@
     "static/media/github-icon.svg": "/static/media/github-icon.fc0ffe042a9582d2a394e1c609baa9f2.svg",
     "static/media/video-icon.svg": "/static/media/video-icon.a6bbb232fb826264d59511c00b0c1a16.svg",
     "main.ce6bf5cf.css.map": "/static/css/main.ce6bf5cf.css.map",
-    "main.c01bef6d.js.map": "/static/js/main.c01bef6d.js.map"
+    "main.a362910c.js.map": "/static/js/main.a362910c.js.map"
   },
   "entrypoints": [
     "static/css/main.ce6bf5cf.css",
-    "static/js/main.c01bef6d.js"
+    "static/js/main.a362910c.js"
   ]
 }
