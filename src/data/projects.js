@@ -7,7 +7,7 @@ import logoRound from "../assets/img/logo_retro.png";
 
 export const projects = [
   {
-    name: "SpotList",
+    name: "Synchtify",
     devTools: ["react-redux", "serverless (firebase)", "spotify API"],
     description:
       "Web app that allows combining & synching of public Spotify playlist with personal playlist. Synch is performed daily via scheduled Cloud functions.",
