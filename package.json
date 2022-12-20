@@ -22,7 +22,7 @@
     "eject": "react-scripts eject",
     "predeploy": "npm run build && npm run copy && echo 'CNAME COPIED'",
     "deploy": "npm run predeploy && gh-pages -d build",
-    "copy": "cp ./CNAME ./build/CNAME"
+    "copy": "cp ./CNAME ./google*.html ./build/"
   },
   "eslintConfig": {
     "extends": [
